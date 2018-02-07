@@ -104,3 +104,21 @@ body#cfay .titles {
 body#cfay .footer{
   color:white;
 }
+
+body#tbarribeau {
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+body#tbarribeau .media a {
+  color: #333;
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+body#tbarribeau h1 {border-bottom: 1px solid #666; }
+body#tbarribeau article h2 {font-size: 1.25em }
+
+/* add some indentation to articles on wider screens */
+@media only screen and (min-width: 960px) {
+  body#tbarribeau article {margin-left: 1em; }
+}
